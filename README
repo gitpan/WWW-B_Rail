@@ -1,0 +1,48 @@
+README for WWW::B_Rail 0.01
+
+WHATIS
+
+WWW::B_Rail - Perl extension for b-rail.be. It can be used to look up train
+timetables for trains on the belgian railways. Currently only the english
+names are provided and a lookup function is non-existing. In other words, 
+this is a beta release.
+
+It uses the LWP::Simple and HTML::TokeParser.
+
+INSTALLING
+
+WWW::B_Rail be installed easily by using the CPAN module.
+
+perl -MCPAN -e"install WWW::B_Rail"
+
+or manually by untarring the archive and running the following commands.
+
+    perl Makefile.PM
+    make
+    make test
+    make install
+
+    
+TESTING
+
+This module has been tested on Linux 2.4.x (x86) with Perl 5.6.1
+
+
+EXAMPLES & SCRIPTS
+
+An example script is provided. Use with caution.
+
+REQUIREMENTS
+
+WWW::B_Rail requires LWP::Simple and HTML::TokeParser.
+
+AUTHOR
+
+WWW::B_Rail was written by Hendrik Van Belleghem. Suggestions & Questions
+are welcome at   beatnik - at - quickndirty - dot - org.
+
+Yes, I love fanmail! No, I don't like spam.
+
+LICENSE
+
+WWW::B_Rail is released under the GPL. See COPYING and COPYRIGHT for more info
